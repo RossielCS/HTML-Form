@@ -1,7 +1,7 @@
 .container{
   display: grid;
   grid-template-columns: 10% 20% 1fr 20% 10%;
-  grid-template-rows: 60px repeat(2, 80px) 1fr 200px;
+  grid-template-rows: 60px repeat(2, 50px) 1fr 200px;
   grid-gap: 10px;
   height: 2000px;
   width: 100%;
@@ -54,3 +54,40 @@
   color: white;
   border: 1px solid black;
 }
+
+/* TITLE */
+
+.web_title{
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  align-self: center;
+}
+
+.name {
+  text-align: center;
+}
+
+.services {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  margin: auto;
+}
+
+.links {
+  /*display: inline;*/
+  background-color: chartreuse;
+  
+}
+
+#mint{
+  list-style-image: url("./images/mint.png");
+}
+
+#quickbooks{
+  list-style-image: url("./images/quickbooks.png");
+}
+
+#turbotax {
+  list-style-image: url("./images/turbotax.png");
+}
+

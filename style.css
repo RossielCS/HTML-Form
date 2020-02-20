@@ -1,7 +1,7 @@
 .container{
   display: grid;
   grid-template-columns: 10% 20% 1fr 20% 10%;
-  grid-template-rows: 60px repeat(2, 80px) 1fr 200px;
+  grid-template-rows: 60px repeat(2, 60px) 1fr 200px;
   grid-gap: 10px;
   height: 2000px;
   width: 100%;
@@ -9,7 +9,7 @@
 }
 
 .container > div{
-  background-color: blue;
+  /*background-color: blue;*/
 }
 
 /*Navbar*/
@@ -61,6 +61,7 @@
   width: 15px;
   padding-top: 2px;
 }
+/* NAVBAR */
 
 /* TITLE */
 
@@ -68,35 +69,42 @@
   grid-column: 3 / 4;
   grid-row: 2 / 3;
   align-self: center;
+  padding-top: 20px;
 }
 
 .name {
   text-align: center;
+  font-size: 50px;
+  font-family: Questrial, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(129, 129, 129);
 }
+/* TITLE */
 
+/* SERVICES */
 .services {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
+  display: grid;
+  grid-template-columns: 1fr 40px 1fr 100px 1fr 70px;
   margin: auto;
+  font-size: 20px;
+  grid-gap: 5px;
 }
 
-.links {
-  /*display: inline;*/
-  background-color: chartreuse;
-  
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.icon {
+  align-self: center;
 }
 
 #mint{
-  list-style-image: url("./images/mint.png");
+  padding-top: 12px;
 }
-
-#quickbooks{
-  list-style-image: url("./images/quickbooks.png");
-}
-
-#turbotax {
-  list-style-image: url("./images/turbotax.png");
-}
+/* SERVICES */
 
 /*Form*/
 
@@ -135,4 +143,22 @@
   font-size: 15px;
   text-align: center;
   margin: auto;
+}
+
+.input_form{
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  /*margin: auto;*/
+}
+
+input[type=text],
+input[type=tel],
+input[type=password],
+select {
+  width: 70%;
+  padding: 10px 10px 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }

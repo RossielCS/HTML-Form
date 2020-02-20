@@ -1,0 +1,12 @@
+.container{
+  display: grid;
+  grid-template-columns: 200px 400px 1fr 400px 200px;
+  grid-template-rows: 200px repeat(2, 100px) 1fr 200px;
+  grid-gap: 20px;
+  height: 2000px;
+  width: 2000px;
+}
+
+.container > div{
+  background-color: blue;
+}

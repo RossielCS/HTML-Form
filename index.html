@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <main class="container">
     <nav id="nav">
       <div id="text">Already have an Intuit account?</div>
       <div id="help">
@@ -21,7 +21,7 @@
           forgot my User ID or Password</a>
       </div>
       <button id="sign_in_b">
-        <img id="lock" src="images/lock.png" alt="icon">Sign In
+        <img class="lock" src="images/lock.png" alt="icon">Sign In
       </button>
     </nav>
 
@@ -61,15 +61,18 @@
       </div>
 
       <form class="input_form" action="/action_page.php" method="get">
-        <label for="">Email address</label>
-        <input type="text"><br><br><br>
-        <label for="">Phone (recommended)</label>
-        <input type="tel"><br>
+        <label for="user_email">Email address</label>
+        <input type="text" id="user_email"><br><br><br>
+
+        <label for="user_tel">Phone (recommended)</label>
+        <input type="tel" id="user_tel"><br>
         <div id="text2">Standard call, messaging or data rates may apply.</div><br><br>
-        <label for="">Password</label><br>
-        <input type="password"><br><br><br>
+
+        <label for="user_password">Password</label><br>
+        <input type="password" id="user_password"><br><br><br>
+
         <button type="submit">
-          <img id="lock" src="images/lock.png" alt="icon">Create Account
+          <img class="lock" src="images/lock.png" alt="icon">Create Account
         </button>
       </form>
       <div id="terms">
@@ -94,7 +97,7 @@
         Terms and conditions, features, support, pricing, and service options subject to change without notice. </p>
     </footer>
 
-  </div>
+  </main>
 </body>
 
 </html>

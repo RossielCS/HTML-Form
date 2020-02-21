@@ -9,7 +9,7 @@ Screenshot
 ![Screenshot_2020-02-20 Document](https://user-images.githubusercontent.com/33432289/74983007-d04f2a80-53fa-11ea-806e-46aeff5bea3c.png)
 
 Live Demo:
-https://raw.githack.com/RossielCS/HTML-Form/tree/Sign-Up-Web-Page
+https://raw.githack.com/RossielCS/HTML-Form/Sign-Up-Web-Page/index.html
 
 
 Additional description about the project and its features.

@@ -8,7 +8,7 @@ The purpose of the project is to put in practice the knowledge of the forms elem
 ![Screenshot_2020-02-20 Document](https://user-images.githubusercontent.com/33432289/74983007-d04f2a80-53fa-11ea-806e-46aeff5bea3c.png)
 
 ## Live Demo
-[Live Demo](https://raw.githack.com/RossielCS/HTML-Form/Patch/index.html)
+[Live Demo](https://raw.githack.com/RossielCS/HTML-Form/master/index.html)
 
 
 Additional description about the project and its features.
